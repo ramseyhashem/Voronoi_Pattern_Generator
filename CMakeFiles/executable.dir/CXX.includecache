@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ramsey/Documents/examples/0Voronoi/PoissonGenerator.h
+PoissonGenerator.h
+/home/ramsey/Documents/examples/0Voronoi/PoissonGenerator.h
+vector
+-
+random
+-
+stdint.h
+-
+time.h
+-
+
+/home/ramsey/Documents/examples/0Voronoi/Voronoi.cpp
+vector
+-
+iostream
+-
+fstream
+-
+memory.h
+-
+string
+-
+sstream
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+PoissonGenerator.h
+/home/ramsey/Documents/examples/0Voronoi/PoissonGenerator.h
+CGAL/Exact_predicates_inexact_constructions_kernel.h
+-
+CGAL/Delaunay_triangulation_2.h
+-
+iterator
+-
+
